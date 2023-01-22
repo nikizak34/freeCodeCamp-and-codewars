@@ -37,11 +37,17 @@ Note: Input will either be a positive integer (or a string for untyped languages
 
 */
 
-function apple(x){
-if(Math.pow(x,2)>1000){
-  return "It's hotter than the sun!!"
-}else{
- return "Help yourself to a honeycomb Yorkie for the glovebox."
+/* 4. Fix the function
+I created this function to add five to any number that was passed in to
+ it and return the new value. It doesn't throw any errors but it returns the wrong number.
+
+Can you help me fix the function?
+*/
+
+function addFive(num) {
+  var total = num + 5
+  return total
 }
-  
-}
+
+
+
