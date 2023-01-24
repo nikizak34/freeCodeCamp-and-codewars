@@ -100,3 +100,17 @@ current age of his son (years)
 function twiceAsOld(d, s) {
   return  Math.abs((s*2)-d)
 }
+
+
+/*  8. You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+If it is a square, return its area. If it is a rectangle, return its perimeter.
+
+*/
+
+const areaOrPerimeter = function(l , w) {
+  if(l===w){
+    return l*w
+  }else{
+    return (l+w)*2
+  }
+};
